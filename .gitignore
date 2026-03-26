@@ -1,0 +1,12 @@
+# Dependências
+node_modules/
+
+# Logs e arquivos de sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+
+# Bancos de dados locais (se usar SQLite por exemplo)
+*.sqlite
