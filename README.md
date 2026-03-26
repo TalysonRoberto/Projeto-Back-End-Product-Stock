@@ -870,3 +870,9 @@ npm test -- auth.test.js
 ![teste_auth](./Doc/teste_auth.png)
 
 </details>
+
+
+
+### 📝 Créditos do Projeto
+
+**Desenvolvido por:** [Talyson Roberto Nascimento Sousa](https://github.com/TalysonRoberto)  
