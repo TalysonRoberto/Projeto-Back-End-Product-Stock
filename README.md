@@ -26,7 +26,7 @@ npm install express sequelize mysql2 dotenv jsonwebtoken crypto-js nodemon swagg
 - **express** ^5.2.1 -> Framework web para Node.js
 - **sequelize** ^6.37.8 -> ORM para Node.js (mapeamento objeto-relacional)
 - **mysql2** ^3.19.1 -> Driver MySQL para Node.js
-- ### **dotenv** ^17.3.1 -> Gerenciamento de variáveis de ambiente
+- **dotenv** ^17.3.1 -> Gerenciamento de variáveis de ambiente
 - **jsonwebtoken** ^9.0.3 -> Geração e validação de tokens JWT
 - **crypto-js** ^4.2.0 -> Biblioteca para criptografia MD5
 - **nodemon** ^3.1.14 -> Monitora alterações e reinicia o servidor automaticamente
