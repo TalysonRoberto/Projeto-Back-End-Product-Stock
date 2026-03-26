@@ -44,15 +44,15 @@ npm install --save-dev jest supertest
 
 # ⚙️ Instalando e configurando projeto
 
-- Clone o repositório
+1. Clone o repositório
 
 ```h
 https://github.com/TalysonRoberto/Projeto-Back-End-Product-Stock.git
 ```
 
-- Realize a instalação das dependencias do topico `🔧 Dependencias do projeto`
+2. Realize a instalação das dependencias do topico `🔧 Dependencias do projeto`
 
-- Crie e configure o arquivo .env caso não tenha baixado com o repositório
+3. Crie e configure o arquivo .env caso não tenha baixado com o repositório
 
 ```js
 DB_NAME=products
@@ -65,13 +65,13 @@ APP_KEY_TOKEN=senha-super-segura
 APP_TEMP=1h
 ```
 
-- Configure o banco de dados `MySQL`
+4. Configure o banco de dados `MySQL`
 
 ![banco](./Doc/bank_config.png)
 
-- Crie o banco `products`
+5. Crie o banco `products`
 
-- Configure o `scripts` do `packge.json`
+6. Configure o `scripts` do `packge.json`
 
 ```json
 "scripts": {
@@ -84,7 +84,7 @@ APP_TEMP=1h
   },
 ```
 
-- Inicie o projeto com o comando
+7. Inicie o projeto com o comando
 
 ```
 npm rum start
@@ -94,7 +94,7 @@ Nesse momento sera gerado um token.
 
 ![token](./Doc/project_init.png)
 
-- Crie e sincronise as tabelas no banco com o comando
+8. Crie e sincronise as tabelas no banco com o comando
 
 ```
 npm run sync
