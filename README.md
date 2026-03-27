@@ -67,7 +67,7 @@ APP_TEMP=1h
 
 4. Configure o banco de dados `MySQL`
 
-![banco](./Doc/bank_config.png)
+![banco](./doc/bank_config.png)
 
 5. Crie o banco `products`
 
@@ -92,7 +92,7 @@ npm rum start
 
 Nesse momento sera gerado um token.
 
-![token](./Doc/project_init.png)
+![token](./doc/project_init.png)
 
 8. Crie e sincronise as tabelas no banco com o comando
 
@@ -193,7 +193,7 @@ npm run sync
 
 Todos os comandos da API necessita da permissão do TOKEN , passe esse parâmetro no `Headers`.
 
-![headers](./Doc/headers.png)
+![headers](./doc/headers.png)
 
 <details>
     <summary><strong>Rota Token</strong></summary><br>
@@ -801,13 +801,13 @@ Rota
 http://localhost:3000/api-docs/
 ```
 
-![auth](./Doc/swagger_auth.png)
+![auth](./doc/swagger_auth.png)
 
-![user](./Doc/swagger_user.png)
+![user](./doc/swagger_user.png)
 
-![product](./Doc/swagger_product.png)
+![product](./doc/swagger_product.png)
 
-![category](./Doc/swagger_category.png)
+![category](./doc/swagger_category.png)
 
 ---
 
@@ -826,7 +826,7 @@ npm test -- --verbose
 
 Resultado esperado:
 
-![teste_geral](./Doc/teste_geral.png)
+![teste_geral](./doc/teste_geral.png)
 
 </details>
 
@@ -840,7 +840,7 @@ Resultado esperado:
 npm test -- user.test.js
 ```
 
-![teste_user](./Doc/teste_user.png)
+![teste_user](./doc/teste_user.png)
 
 - categoria
 
@@ -849,7 +849,7 @@ npm test -- user.test.js
 npm test -- categoria.test.js
 ```
 
-![teste_categoria](./Doc/teste_categoria.png)
+![teste_categoria](./doc/teste_categoria.png)
 
 - Produto
 
@@ -858,7 +858,7 @@ npm test -- categoria.test.js
 npm test -- product.test.js
 ```
 
-![teste_produto](./Doc/teste_produto.png)
+![teste_produto](./doc/teste_produto.png)
 
 - Auth
 
@@ -867,7 +867,7 @@ npm test -- product.test.js
 npm test -- auth.test.js
 ```
 
-![teste_auth](./Doc/teste_auth.png)
+![teste_auth](./doc/teste_auth.png)
 
 </details>
 
